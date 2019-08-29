@@ -1,0 +1,30 @@
+{
+  "particles":{
+    "number":{
+      "value":250
+    },
+    "color":{
+      "value":"#ffffff"
+    },
+    "shape": {
+      "type":"square"
+    }
+  },
+      "interactivity":{
+        "events":{
+            "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick":{
+            "enable": true,
+            "mode": "push"
+          }
+        },
+        "modes":{
+          "push": {
+            "particles_nb": 5
+      }
+        }
+      }
+}
